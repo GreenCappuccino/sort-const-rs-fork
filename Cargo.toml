@@ -1,0 +1,20 @@
+[package]
+name = "sort-const"
+authors = ["Daniel Bloom"]
+version = "1.0.0"
+edition = "2021"
+description = "Sort arrays and slices in const contexts."
+keywords = ["const", "sort", "const-sort", "sorting"]
+categories = ["algorithms", "no-std::no-alloc"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/Daniel-Aaron-Bloom/sort-const-rs"
+homepage = "https://docs.rs/sort-const"
+documentation = "https://docs.rs/sort-const"
+readme = "README.md"
+rust-version = "1.85.0"
+
+[dependencies]
+arrayvec = { git = "https://github.com/Daniel-Aaron-Bloom/arrayvec" }
+
+[badges]
+github = { repository = "Daniel-Aaron-Bloom/sort-const-rs", workflow = "Rust" }
