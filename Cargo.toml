@@ -14,7 +14,7 @@ readme = "README.md"
 rust-version = "1.85.0"
 
 [dependencies]
-arrayvec = { git = "https://github.com/Daniel-Aaron-Bloom/arrayvec" }
+arrayvec-const = { version = "0.7.7" }
 
 [badges]
 github = { repository = "Daniel-Aaron-Bloom/sort-const-rs", workflow = "Rust" }

@@ -24,7 +24,7 @@
 
 /// Used for our `call stack`
 #[doc(hidden)]
-pub use arrayvec::ArrayVec;
+pub use arrayvec_const::ArrayVec;
 
 /// Sorts a `const` array or mutable slice as a `const` expression.
 /// 

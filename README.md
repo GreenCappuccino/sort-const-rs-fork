@@ -24,11 +24,7 @@ assert_eq!(B, [1, 2, 3]);
 assert_eq!(C, [1, 2, 3]);
 ```
 
-Publication of this crate is blocked on [bluss/arrayvec#294](https://github.com/bluss/arrayvec/pull/294). Until then `git` dependency is the only option.
-
-```toml
-sort-const = { git = "https://github.com/Daniel-Aaron-Bloom/sort-const-rs" }
-```
+For now, this crate uses a custom `const`y fork of `arrayvec`. [bluss/arrayvec#294](https://github.com/bluss/arrayvec/pull/294) should fix this.
 
 ## License
 
