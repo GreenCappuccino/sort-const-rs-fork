@@ -12,3 +12,4 @@ Licensed under
 * MIT license ([LICENSE](LICENSE) or https://opensource.org/licenses/MIT)
 
 [`const_quicksort`]: https://docs.rs/sort-const/latest/sort_const/macro.const_quicksort.html "macro sort_const::const_quicksort"
+[`const_shellsort`]: https://docs.rs/sort-const/latest/sort_const/macro.const_shellsort.html "macro sort_const::const_shellsort"

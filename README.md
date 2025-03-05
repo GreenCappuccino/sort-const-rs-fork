@@ -6,7 +6,7 @@ A macro for sorting arrays and slices at compile time.
 
 ### Usage
 
-Just use the [`const_quicksort`] macro.
+Just use the [`const_quicksort`] or [`const_shellsort`] macros.
 
 ```rust
 use sort_const::const_quicksort;
@@ -32,3 +32,4 @@ Licensed under
 * MIT license ([LICENSE](LICENSE) or https://opensource.org/licenses/MIT)
 
 [`const_quicksort`]: https://docs.rs/sort-const/latest/sort_const/macro.const_quicksort.html "macro sort_const::const_quicksort"
+[`const_shellsort`]: https://docs.rs/sort-const/latest/sort_const/macro.const_shellsort.html "macro sort_const::const_shellsort"

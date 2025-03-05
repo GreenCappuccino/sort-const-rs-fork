@@ -1,7 +1,7 @@
 [package]
 name = "sort-const"
 authors = ["Daniel Bloom"]
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 description = "Sort arrays and slices in const contexts."
 keywords = ["const", "sort", "const-sort", "sorting"]
@@ -13,8 +13,19 @@ documentation = "https://docs.rs/sort-const"
 readme = "README.md"
 rust-version = "1.85.0"
 
+[features]
+slow-tests = []
+
 [dependencies]
 arrayvec-const = { version = "0.7.7" }
 
 [badges]
 github = { repository = "Daniel-Aaron-Bloom/sort-const-rs", workflow = "Rust" }
+
+[[example]]
+name = "large-quick"
+required-features = ["slow-tests"]
+
+[[example]]
+name = "large-shell"
+required-features = ["slow-tests"]
