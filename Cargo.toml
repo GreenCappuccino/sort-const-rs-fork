@@ -15,9 +15,12 @@ rust-version = "1.85.0"
 
 [features]
 slow-tests = []
+default = ["std"]
+std = ["arrayvec-const/std"]
+
 
 [dependencies]
-arrayvec-const = { version = "0.7.7" }
+arrayvec-const = { version = "0.7.7", default-features = false }
 
 [badges]
 github = { repository = "Daniel-Aaron-Bloom/sort-const-rs", workflow = "Rust" }
